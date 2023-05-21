@@ -90,7 +90,7 @@ int main() {
 	BrojProstih(500, num_of_cores);
 	BrojProstih(1000, num_of_cores);
 	BrojProstih(10000, num_of_cores);
-	BrojProstih(500000, num_of_cores);
+	BrojProstih(200000, num_of_cores);
 
 	return 0;
 }
