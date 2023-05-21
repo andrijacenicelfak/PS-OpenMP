@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VEZBE-1", "VEZBE-1\VEZBE-1.vcxproj", "{0F5FDCFD-1918-4EF1-AA42-5466AEDECE4A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LAB4-1", "LAB4-1\LAB4-1.vcxproj", "{F71C3E84-7D76-4823-B194-2A51208BDC13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{0F5FDCFD-1918-4EF1-AA42-5466AEDECE4A}.Release|x64.Build.0 = Release|x64
 		{0F5FDCFD-1918-4EF1-AA42-5466AEDECE4A}.Release|x86.ActiveCfg = Release|Win32
 		{0F5FDCFD-1918-4EF1-AA42-5466AEDECE4A}.Release|x86.Build.0 = Release|Win32
+		{F71C3E84-7D76-4823-B194-2A51208BDC13}.Debug|x64.ActiveCfg = Debug|x64
+		{F71C3E84-7D76-4823-B194-2A51208BDC13}.Debug|x64.Build.0 = Debug|x64
+		{F71C3E84-7D76-4823-B194-2A51208BDC13}.Debug|x86.ActiveCfg = Debug|Win32
+		{F71C3E84-7D76-4823-B194-2A51208BDC13}.Debug|x86.Build.0 = Debug|Win32
+		{F71C3E84-7D76-4823-B194-2A51208BDC13}.Release|x64.ActiveCfg = Release|x64
+		{F71C3E84-7D76-4823-B194-2A51208BDC13}.Release|x64.Build.0 = Release|x64
+		{F71C3E84-7D76-4823-B194-2A51208BDC13}.Release|x86.ActiveCfg = Release|Win32
+		{F71C3E84-7D76-4823-B194-2A51208BDC13}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
