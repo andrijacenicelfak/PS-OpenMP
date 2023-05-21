@@ -52,6 +52,9 @@ void MatrixMul(int N) {
 	//	}
 	//	printf("\n");
 	//}
+	free(A);
+	free(B);
+	free(C);
 }
 
 int main(int argc, char* argv[]) {
