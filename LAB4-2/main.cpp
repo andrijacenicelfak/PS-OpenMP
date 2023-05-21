@@ -27,9 +27,11 @@ void ScalarMul(int N) {
 	time = omp_get_wtime();
 	rez = 0;
 #pragma omp parallel for
-	for (int i = 0; i < N; i++)
+	for (int i = 0; i < N; i++) {
+		int rez2 = A[i] * B[i];
 #pragma omp critical
-		rez += A[i] * B[i];
+		rez += rez2;
+	}
 	t2 = omp_get_wtime() - time;
 	rez = 0;
 	time = omp_get_wtime();
