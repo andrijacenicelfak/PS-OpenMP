@@ -35,7 +35,7 @@ void FindMax(int N) {
 		}
 	}
 	t2 = omp_get_wtime() - time;
-	printf("rez : %d\n", cmax);
+	//printf("rez : %d\n", cmax);
 	printf("Serial time :\t %4.5lfms\n", t1 * 1000);
 	printf("Critical time :\t %4.5lfms, Ubrzanje : %2.2lf\n", t2 * 1000, t1 / t2);
 
